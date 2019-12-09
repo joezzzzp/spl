@@ -70,4 +70,8 @@ public class ViewTestMain {
             viewGroup.addChild(view);
         }
     }
+
+    private String testString() {
+        return "{ \"viewType\": \"pageView\", \"width\": 123, \"height\": 224, \"children\": [ { \"viewType\": \"noCodeViewGroup\", \"width\": 432, \"height\": 43, \"children\": [ { \"viewType\": \"panelView\", \"width\": 12, \"height\": 34, \"children\": [ { \"viewType\": \"noCodeView\", \"width\": 12, \"height\": 78, \"customProperties\": { \"number\": \"3\", \"other\": \"呵呵呵呵\" } } ] }, { \"viewType\": \"buttonView\", \"content\": \"啦啦啦\", \"width\": 45, \"height\": 78 } ] } ] }";
+    }
 }
