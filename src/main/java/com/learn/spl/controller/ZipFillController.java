@@ -1,7 +1,6 @@
 package com.learn.spl.controller;
 
 import com.learn.spl.entity.ResponseResult;
-import com.sun.xml.internal.ws.encoding.ContentType;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
